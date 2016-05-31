@@ -5,8 +5,8 @@
 
         $routeProvider
             // Home
-            .when("/", { templateUrl: "Templates/EnterFeedback", controller: "feedbackEnterController" })
-            .when("/ConfirmFeedback", { templateUrl: "Templates/ConfirmFeedback", controller: "feedbackConfirmController" })
+            .when("/", { templateUrl: "Templates/EnterFeedback", controller: "enterFeedbackController" })
+            .when("/FeedbackConfirm", { templateUrl: "Templates/FeedbackResponse", controller: "feedbackResponseController" })
 
             //404
             .otherwise("/NotFound", { templateUrl: "Templates/NotFound" })

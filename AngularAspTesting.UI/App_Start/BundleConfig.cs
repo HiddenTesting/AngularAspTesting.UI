@@ -15,6 +15,7 @@ namespace AngularAspTesting
                     "~/Scripts/respond.js",
                     "~/Scripts/angular.js",
                     "~/Scripts/angular-route.js",
+                    "~/Scripts/SiteCode/feedbackApp.js",
                     "~/Scripts/SiteCode/*.js"));
 
             bundles.Add(new StyleBundle("~/Content/css").Include(

@@ -9,14 +9,14 @@ namespace AngularAspTesting.Controllers
             return PartialView("_EnterFeedback");
         }
 
-        public ActionResult ConfirmFeedback()
+        public ActionResult FeedbackResponse()
         {
-            return PartialView("_ConfirmFeedback");
+            return PartialView("_FeedbackResponse");
         }
 
         public ActionResult NotFound()
         {
-            return PartialView("_ConfirmFeedback");
+            return PartialView("_NotFound");
         }
     }
 }

@@ -317,7 +317,7 @@
     <Content Include="Views\Templates\_EnterFeedback.cshtml" />
     <Content Include="Views\Templates\_FeedbackResponse.cshtml" />
     <Content Include="Views\Templates\_NotFound.cshtml" />
-    <Content Include="Views\Home\AboutUs.cshtml" />
+    <Content Include="Views\Home\ViewEntries.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

@@ -16,9 +16,15 @@ namespace AngularAspTesting.Services
 
             return enterFeedbackModel.Id;
         }
+
         public EnterFeedbackModel Get(int id)
         {
             return EnterFeedbackModels.FirstOrDefault(i => i.Id == id);
         }
+
+        public List<EnterFeedbackModel> GetAll()
+        {
+            return EnterFeedbackModels;
+        } 
     }
 }

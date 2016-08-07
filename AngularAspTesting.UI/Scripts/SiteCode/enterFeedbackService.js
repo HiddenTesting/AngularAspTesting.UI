@@ -5,8 +5,7 @@
         var apiAddress = '/api/EnterFeedback/';
         
         this.SubmitEnterFeedbackData = function (model) {
-            return $http.post(apiAddress, angular.toJson(model))
-                .then(function () {});
+            return $http.post(apiAddress, angular.toJson(model));
         };
         
         return this;

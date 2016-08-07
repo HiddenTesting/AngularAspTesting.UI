@@ -9,7 +9,8 @@ namespace AngularAspTesting
         {
             routes.IgnoreRoute("{resource}.axd/{*pathInfo}");
 
-            //routes.MapRoute("Feedback Response", "FeedbackResponse", new { controller = "Home", action = "Index", id = UrlParameter.Optional });
+            routes.MapRoute("Home", "", new { controller = "Home", action = "Index", id = UrlParameter.Optional });
+            routes.MapRoute("Feedback Response", "FeedbackResponse", new { controller = "Home", action = "Index", id = UrlParameter.Optional });
 
             routes.MapRoute(
                 name: "Default",
